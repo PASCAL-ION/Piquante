@@ -28,6 +28,5 @@ app.use(express.json()); //middleware express, analyse les données JSON dans le
 app.use('/api/sauces', saucesRoutes); //on passe en premier argument la route générale pour les requêtes concernant les sauces
 app.use('/api/auth', userRoutes); //route générale pour les requêtes concernant l'authentification
 app.use('/images', express.static(path.join(__dirname, 'images')));
-app.use(express.static('static'));
 
 module.exports = app
