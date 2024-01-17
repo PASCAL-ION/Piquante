@@ -1,6 +1,7 @@
 {
   "name": "hot-takes",
   "version": "0.0.0",
+  "main": "server.js", 
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -8,6 +9,9 @@
     "test": "ng test"
   },
   "private": true,
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@angular/animations": "~13.2.0",
     "@angular/cdk": "~13.2.3",
